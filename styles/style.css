@@ -19,16 +19,40 @@ header {
 }
 
 .menu {
-  
+  margin-left: 50px;
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 100%;
+  letter-spacing: 0%;
+
 }
 
 .logo {
-
+  margin-right: 50px;
 }
 
 .contents {
   width: 240px;
   height: 98px;
+  margin-right: 50px;
+}
+
+.contents1, .contents2, .contents3 {
+font-family: Raleway;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+leading-trim: NONE;
+line-height: 24.3px;
+letter-spacing: 0%;
+color: 000000;
+}
+
+.contents1 {
+  text-decoration: underline;
 }
 
 
@@ -74,8 +98,12 @@ a:hover {
   background-image: url("../images/0ebc4c3a92bfb672f477e421e7738fd6416ff19b\ \(4\).jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .cover-overlay {
@@ -95,6 +123,7 @@ a:hover {
     height: 100%;
     padding: 0 50px;
     gap: 20px;
+    letter-spacing: 26px;
 }
 
 .cover ul li {
@@ -120,62 +149,205 @@ a:hover {
   
 }
 
-.lots {
-  padding-top: 180px;
+.cover .description {
+  width: 637px;
+  height: 38px;
+  position: absolute;
+  bottom: 50px;
+  left: 50px;
+  right: 50px;
+  z-index: 1;
   display: flex;
-  
-}
-.lots h2{
-    text-transform: uppercase;
-    width: 121px;
-    height: 47px;
+  align-items: center;
+  gap: px;/* расстояние между текстом и кнопкой */
 }
 
-.card {
+.cover .description p {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 28px;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  color: white;
+  max-width: 637px;
+}
+
+
+.cover .description button {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0;
+  text-transform: uppercase;
+  text-align: center;
+
+  background: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 12px 32px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.cover .description button:hover {
+  background-color: white;
+  color: black;
+}
+.cover .description span {
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.lots {
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 180px;
+}
+
+.lots h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 27px;
+}
+
+/* контейнер с карточками */
+.lots .card {
   display: inline-block;
-
+  position: relative;
   width: 334px;
   height: 596px;
   margin-right: 25px;
-  margin-top:27px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
 }
 
+/* убираем отступ у последней карточки */
+.lots .card:last-child {
+  margin-right: 0;
+}
+
+/* затемнение карточки */
+.lots .card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* текст на карточке */
+.lots .card h1 {
+  position: relative;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  margin: 48px 40px 0 40px;
+  z-index: 2;
+}
+
+.lots .card h2 {
+  display: none; /* если не используется */
+}
+
+.lots .card p {
+  position: relative;
+  font-size: 20px;
+  line-height: 24px;
+  margin: 30px 40px 48px 40px;
+  z-index: 2;
+}
+
+/* кнопка "Посмотреть больше" */
+.lots > a {
+  display: inline-block;
+  margin-top: 30px;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration: none;
+  border-bottom: 1px solid black;
+  color: black;
+}
+.lots > a:hover {
+  color: blue;
+  border-color: blue;
+}
+
+/* фоновые изображения */
 .card1 {
-  background-image: url(../images/card-lot-01.jpg);
+  background-image: url("../images/card-lot-01.jpg");
 }
-
 .card2 {
-  background-image: url(../images/card-lot-02.jpg);
+  background-image: url("../images/card-lot-02.jpg");
+}
+.card3 {
+  background-image: url("../images/card-lot-03.jpg");
 }
 
-.card3 {
-  background-image: url(../images/card-lot-03.jpg);
-}
 
 .about {
-  padding-top: 120px;
+  display: flex;
+  align-items: flex-start; /* текст выровнен по верхней линии логотипа */
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+  padding-top: 120px; /* можно уменьшить, если в макете меньше */
+  gap: 72px; /* расстояние между логотипом и текстом */
+  padding-bottom: 120px;
 }
 
-.logo-column {
-    width: 240px;
-    height: 240px;
-    margin-left: 71px;
+/* логотип слева */
+.about .logo-column {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%; /* делает круглым */
+  background-color: black; /* если логотип сам прозрачный */
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-  .about-column {
-    width: 449px;
-    padding-left: 359px;
-    padding-top: 153px;
-    padding-bottom: 13px;
-  }
+.about .logo-column img {
+  width: 148px;
+  height: 105px;
+}
 
-  .about-title {
-  }
+/* блок справа с текстом */
+.about .about-column {
+  max-width: 693px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
 
-  .description-block {
-    width: 693px;
-    height: 312px;
-  }
+.about .about-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
+}
+
+.about .description-block {
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
 
 .footer {
   height: 180px;
