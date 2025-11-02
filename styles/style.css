@@ -14,16 +14,27 @@ footer {
 header {
   display: flex;
   height: 293px;
-  width: 1100px;
   align-items: center;
   justify-content: space-between;
 }
 
-.contents {
+.menu {
+  
 }
+
+.logo {
+
+}
+
+.contents {
+  width: 240px;
+  height: 98px;
+}
+
 
 header .logo img {
   width: 148px;
+  height: 105px;
 }
 
 header nav ul {
@@ -141,17 +152,16 @@ a:hover {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.logo {
-}
-
 .about {
   padding-top: 120px;
+}
 
-  .logo-column {
+.logo-column {
     width: 240px;
     height: 240px;
     margin-left: 71px;
-  }
+}
+
   .about-column {
     width: 449px;
     padding-left: 359px;
@@ -166,13 +176,14 @@ a:hover {
     width: 693px;
     height: 312px;
   }
-}
+
 .footer {
   height: 180px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
 }
+
 .contacts {
   height: 98px;
   width: 264.57px;
@@ -190,37 +201,38 @@ text-transform: uppercase;
 } */
 
 .menu-footer {
-  width: 164px;
-  height: 64px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+width: 164px;
+height: 64px;
+display: flex;
+justify-content: center;
+align-items: center;
 }
+
 .menu-footer ul {
-  text-align: center;
-  list-style: none;
+text-align: center;
+list-style: none;
 }
 
 .social {
-  width: 240px;
-  height: 48px;
-  display: flex;
-  gap: 48px;
-  margin-left: auto;
-  margin-right: 50px;
+width: 240px;
+height: 48px;
+display: flex;
+gap: 48px;
+margin-left: auto;
+margin-right: 50px;
 }
 
 .social-1 {
-  width: 48px;
-  height: 48px;
+width: 48px;
+height: 48px;
 }
 
 .social-2 {
-  width: 48px;
-  height: 48px;
+width: 48px;
+height: 48px;
 }
 
 .social-3 {
-  width: 48px;
-  height: 48px;
+width: 48px;
+height: 48px;
 }
