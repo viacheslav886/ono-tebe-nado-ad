@@ -233,12 +233,9 @@ a:hover {
   color: white;
   text-decoration: none;
   overflow: hidden;
+  
 }
 
-/* убираем отступ у последней карточки */
-.lots .card:last-child {
-  margin-right: 0;
-}
 
 /* затемнение карточки */
 .lots .card::before {
@@ -260,7 +257,7 @@ a:hover {
 }
 
 .lots .card h2 {
-  display: none; /* если не используется */
+  display: none;
 }
 
 .lots .card p {
@@ -270,22 +267,20 @@ a:hover {
   margin: 30px 40px 48px 40px;
   z-index: 2;
 }
+.more {
+/* посмотреть больше */
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
 
-/* кнопка "Посмотреть больше" */
-.lots > a {
-  display: inline-block;
-  margin-top: 30px;
-  font-size: 20px;
-  line-height: 23px;
-  text-decoration: none;
-  border-bottom: 1px solid black;
-  color: black;
-}
-.lots > a:hover {
-  color: blue;
-  border-color: blue;
-}
+color: #000000;
+margin-left: 64px;
 
+
+
+}
 /* фоновые изображения */
 .card1 {
   background-image: url("../images/card-lot-01.jpg");
@@ -296,7 +291,6 @@ a:hover {
 .card3 {
   background-image: url("../images/card-lot-03.jpg");
 }
-
 
 .about {
   display: flex;
