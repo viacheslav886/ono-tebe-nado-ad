@@ -159,7 +159,7 @@ a:hover {
   z-index: 1;
   display: flex;
   align-items: center;
-  gap: px;/* расстояние между текстом и кнопкой */
+  
 }
 
 .cover .description p {
