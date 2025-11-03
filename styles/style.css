@@ -467,10 +467,8 @@ a:hover {
   font-weight: 400;
   font-style: Regular;
   font-size: 18px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
-  text-align: center;
   text-underline-offset: 5px;
 }
 
