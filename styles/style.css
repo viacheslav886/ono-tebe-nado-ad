@@ -27,11 +27,9 @@ header {
   leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
-
 }
 
 .logo {
-  
   height: 105px;
   width: 148px;
   margin-right: 160px;
@@ -43,21 +41,22 @@ header {
   margin-right: 50px;
 }
 
-.contents1, .contents2, .contents3 {
-font-family: Raleway;
-font-weight: 400;
-font-style: Regular;
-font-size: 18px;
-leading-trim: NONE;
-line-height: 24.3px;
-letter-spacing: 0%;
-color: 000000;
+.contents1,
+.contents2,
+.contents3 {
+  font-family: Raleway;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  leading-trim: NONE;
+  line-height: 24.3px;
+  letter-spacing: 0%;
+  color: 000000;
 }
 
 .contents1 {
   text-decoration: underline;
 }
-
 
 header .logo img {
   width: 148px;
@@ -102,7 +101,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  
   position: relative;
   display: flex;
   align-items: center;
@@ -120,23 +118,23 @@ a:hover {
 }
 
 .cover ul {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-    padding: 0 50px;
-    gap: 20px;
-    letter-spacing: 26px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  padding: 0 50px;
+  gap: 20px;
+  letter-spacing: 26px;
 }
 
 .cover ul li {
-    color: white;
-    font-weight: bold;
-    font-size: 100px;
-    text-transform: uppercase;
-    list-style: none;
-    align-items: center;
-    justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 100px;
+  text-transform: uppercase;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
 }
 
 .cover ul li:nth-child(1) {
@@ -149,7 +147,6 @@ a:hover {
 
 .cover ul li:nth-child(3) {
   text-align: right;
-  
 }
 
 .cover .description {
@@ -161,12 +158,11 @@ a:hover {
   z-index: 1;
   display: flex;
   align-items: center;
-  
 }
 
 .cover .description p {
   width: 637px;
-  height: 28px;  
+  height: 28px;
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 400;
   font-style: Regular;
@@ -178,9 +174,7 @@ a:hover {
   justify-content: space-between;
 }
 
-
 .cover .description button {
- 
   font-family: "Raleway", Arial, Helvetica, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -193,11 +187,10 @@ a:hover {
   border: 1px solid white;
   width: 256px;
   height: 51px;
-  line-height: 100%;       
-  white-space: nowrap;     
-  cursor: pointer; 
+  line-height: 100%;
+  white-space: nowrap;
+  cursor: pointer;
   margin-left: 107px;
-
 }
 
 .lots {
@@ -205,7 +198,6 @@ a:hover {
   height: 723px;
   margin: 0 auto;
   margin-top: 180px;
-  
 }
 
 .lots h2 {
@@ -215,7 +207,6 @@ a:hover {
   line-height: 47px;
   margin-bottom: 27px;
 }
-
 
 .lots .card {
   display: inline-block;
@@ -228,7 +219,6 @@ a:hover {
   color: white;
   text-decoration: none;
   overflow: hidden;
-  
 }
 
 .card-description {
@@ -274,7 +264,6 @@ a:hover {
   z-index: 2;
 }
 
-
 .card-overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
@@ -286,105 +275,100 @@ a:hover {
 }
 
 .card-overlay h1 {
-font-size: 22px;
-text-decoration: underline;
-text-decoration-color: currentColor; 
-text-decoration-style: solid;              
-text-decoration-thickness: 1px;            
-text-underline-offset: 2px;                
+  font-size: 22px;
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+  text-decoration-style: solid;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 2px;
 }
 
 .more {
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 23px;
-color: #000000;
-margin-left: 64px;
-margin-top: 30px;
-display: block
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+  margin-left: 64px;
+  margin-top: 30px;
+  display: block;
 }
 
 .card1 {
-background-image: url("../images/card-lot-01.jpg");
+  background-image: url("../images/card-lot-01.jpg");
 }
 .card2 {
-background-image: url("../images/card-lot-02.jpg");
+  background-image: url("../images/card-lot-02.jpg");
 }
 .card3 {
-background-image: url("../images/card-lot-03.jpg");
+  background-image: url("../images/card-lot-03.jpg");
 }
-
 
 .about {
-display: flex;
-align-items: flex-start; 
-justify-content: space-between;
-width: 1052px;
-margin: 0 auto;
-padding-top: 120px; 
-gap: 72px; 
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 1052px;
+  margin: 0 auto;
+  padding-top: 120px;
+  gap: 72px;
 }
 
-
 .about .logo-column {
-width: 240px;
-height: 240px;
-border-radius: 50%; 
-background-color: black; 
-display: flex;
-justify-content: center;
-align-items: center;
-margin-left: 47px;
-margin-top: 35px;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 47px;
+  margin-top: 35px;
 }
 
 .about .logo-column img {
-width: 148px;
-height: 105px;
+  width: 148px;
+  height: 105px;
 }
 
-
 .about .about-column {
-max-width: 693px;
-gap: 24px;
-margin-top: 133px;
+  max-width: 693px;
+  gap: 24px;
+  margin-top: 133px;
 }
 
 .about .about-title {
-font-weight: 700;
-font-size: 40px;
-line-height: 47px;
-text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  text-transform: uppercase;
 }
 
 .about .description-block {
-font-size: 20px;
-line-height: 24px;
-display: flex;
-flex-direction: column;
-gap: 25px;
-margin-top: 100px;
-  
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 100px;
 }
 
-
 .footer {
-margin-top: 180px;
-height: 180px;
-display: flex;
-align-items: flex-start;
-justify-content: space-between;
+  margin-top: 180px;
+  height: 180px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .contacts {
-height: 98px;
-width: 264.57px;
-padding-left: 0px;
-display: inline-block;
-margin-right: auto;
-margin-left: 50px;
+  height: 98px;
+  width: 264.57px;
+  padding-left: 0px;
+  display: inline-block;
+  margin-right: auto;
+  margin-left: 50px;
 }
 
 /* .cover ul li span {
@@ -395,38 +379,38 @@ text-transform: uppercase;
 } */
 
 .menu-footer {
-width: 164px;
-height: 64px;
-display: flex;
-justify-content: center;
-align-items: center;
+  width: 164px;
+  height: 64px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-footer ul {
-text-align: center;
-list-style: none;
+  text-align: center;
+  list-style: none;
 }
 
 .social {
-width: 240px;
-height: 48px;
-display: flex;
-gap: 48px;
-margin-left: auto;
-margin-right: 50px;
+  width: 240px;
+  height: 48px;
+  display: flex;
+  gap: 48px;
+  margin-left: auto;
+  margin-right: 50px;
 }
 
 .social-1 {
-width: 48px;
-height: 48px;
+  width: 48px;
+  height: 48px;
 }
 
 .social-2 {
-width: 48px;
-height: 48px;
+  width: 48px;
+  height: 48px;
 }
 
 .social-3 {
-width: 48px;
-height: 48px;
+  width: 48px;
+  height: 48px;
 }
