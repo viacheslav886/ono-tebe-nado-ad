@@ -93,15 +93,6 @@ a.active {
   text-decoration: none;
 }
 
-a:hover {
-  color: blue;
-}
-
-.cover::before {
-  opacity: 0/5;
-  z-index: 1;
-}
-
 .cover {
   height: 757px;
   width: 1100px;
@@ -117,7 +108,6 @@ a:hover {
 .cover-overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
   left: 0;
   top: 0;
   width: 100%;
@@ -242,9 +232,7 @@ a:hover {
   background-position: center;
   color: white;
   text-decoration: none;
-  overflow: hidden;
 }
-
 
 .card-description {
   font-weight: 400;
@@ -275,22 +263,17 @@ a:hover {
   text-underline-offset: 3px;
 }
 
-.lots .card h2 {
-  display: none;
-}
 
 .lots .card p {
   position: relative;
   font-size: 20px;
   line-height: 24px;
   margin: 30px 40px 48px 40px;
-  z-index: 2;
 }
 
 .card-overlay {
   position: absolute;
   background-color: rgba(0, 0, 0, 0.6);
-  z-index: 1;
   left: 0;
   top: 0;
   width: 100%;
@@ -300,8 +283,6 @@ a:hover {
 .card-overlay h1 {
   font-size: 22px;
   text-decoration: underline;
-  text-decoration-color: currentColor;
-  text-decoration-style: solid;
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
 }
@@ -331,7 +312,6 @@ a:hover {
 
 .card3 {
   background-image: url("../images/card-lot-03.jpg");
-  
 }
 
 .about {
@@ -347,7 +327,7 @@ a:hover {
 .about .logo-column {
   width: 240px;
   height: 240px;
-  border-radius: 50%;
+  border-radius: 50%; 
   background-color: black;
   display: flex;
   justify-content: center;
@@ -361,9 +341,7 @@ a:hover {
   height: 105px;
 }
 
-.about .about-column {
-  max-width: 693px;
-  gap: 24px;
+.about-column {
   margin-top: 133px;
 }
 
