@@ -327,6 +327,7 @@ a.active {
 .about .logo-column {
   width: 240px;
   height: 240px;
+  
   border-radius: 50%; 
   background-color: black;
   display: flex;
