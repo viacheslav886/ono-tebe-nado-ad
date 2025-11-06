@@ -263,7 +263,6 @@ a.active {
   text-underline-offset: 3px;
 }
 
-
 .lots .card p {
   position: relative;
   font-size: 20px;
@@ -327,8 +326,7 @@ a.active {
 .about .logo-column {
   width: 240px;
   height: 240px;
-  
-  border-radius: 50%; 
+  border-radius: 50%;
   background-color: black;
   display: flex;
   justify-content: center;
@@ -406,7 +404,7 @@ a.active {
   display: block;
 }
 
-.line-1, 
+.line-1,
 .line-2 {
   font-family: Raleway;
   font-weight: 400;
